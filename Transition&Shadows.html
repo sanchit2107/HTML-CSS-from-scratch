@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+  <style>
+		 .main1{
+			 background: url(image1.jpg) no-repeat;
+			 width:50%;
+			 height:250px;
+			 margin:50px auto;
+			 border:5px #000000 solid;
+			 background-repeat:none;
+		 }
+		 .main1:hover{
+			 width:10%;
+			 height:125px;
+			 border-radius:50%;
+			 background-size:100% 100%;
+			 border:#0F0 solid 4px;
+			 transition:all ease-out 4s;
+		 }
+		.main1:not(:hover){
+			 width:50%;
+			 height:250px;
+			 transition:all ease-out 4s;
+		}
+		 .main2{
+			 background:#00F;
+			 color:#0FF;
+			 border:#000 solid 4px;
+			 width:30%;
+			 outline:none;
+			 height:50px;
+			 font-size:36px;
+			 cursor:pointer;
+			 transition:all ease-out 3s;
+		 }
+		 .main2:hover{
+			 border:#639 solid 4px;
+			 
+			 color:#FF0;
+			 background:#F00;
+			
+		 }
+		 .main2:active{
+			 border-radius:30px 0px 30px 0px;
+			 box-shadow:inset 2px 2px 35px #000000;
+		 }
+		 .main3{
+			 background:#F0F;
+			 color:#609;
+			 border:#000 solid 4px;
+			 font-size:36px;
+			 width:30%;
+			 height:50px;
+			 outline:none;
+			 cursor:pointer;
+			 margin:50px auto;
+			 transition:all
+ ease-out 5s;
+		 }
+		 
+		 .main3:hover{
+			 border:#639 solid 4px;
+			 background:#FF0;
+			 color:#000;
+			 transition:all ease-out 3s;
+			 border-radius:50px 30px / 15% 10%;
+		 }
+		 .main3:active{
+			 background:#F00;
+			 
+		 }
+		 .main4{
+			 background:#0F0;
+			 color:#009;
+			 border:#000 solid 4px;
+			 font-size:36px;
+			 width:30%;
+			 height:50px;
+			 outline:none;
+			 cursor:pointer;
+		 }
+		 .main4:hover{
+			 border:#C00  solid 4px;
+			 background:#F39;
+			 color:#00F; 
+			 transition:all ease-in 2s;
+			 text-shadow:5px 2px 8px #000000;
+			 box-shadow:8px 8px 25px #000000;
+		 }
+			
+  </style>
+</head>
+
+<body>
+ <div class="main">
+  <div class="main1">
+  </div>
+ </div>
+ <input type="button" value="Click Me" class="main2" />
+ <p>
+  <input type="button" value="Press Me" class="main3" />
+  </p>
+  <p>
+   <input type="button" value="Click Here" class="main4" />
+   </p>
+</body>
+</html>

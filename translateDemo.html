@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+		<style>
+		.main{
+			width:50%;
+			height:300px;
+			margin:60px auto;
+			position:relative;
+		}
+		.main1{
+			background:url(../../Pictures/Wallpapers/Geneva%20Wilson%20Brown_love%20heart_a0dmRWRY.jpg);
+			background-size:100% 100%;
+			width:150px;
+			height:150px;
+			position:absolute;
+			z-index:1000;
+			border-radius:100px;
+
+		}
+		.main2{
+			background:url(../../Pictures/Wallpapers/srk1.jpg);
+			width:150px;
+			height:150px;
+			background-size:100% 100%;
+			position:absolute;
+			border-radius:100px;
+			transition:all linear 0.5s;
+		}
+		.main:hover .main2{
+			transform:translate(120px,55px);
+			border-radius:0px;
+			width:300px;
+			height:300px;
+		}
+		</style>
+</head>
+
+<body>
+ <div class="main">
+  <div class="main1">
+  </div>
+  <div class="main2">
+  </div>
+ </div>
+</body>
+</html>

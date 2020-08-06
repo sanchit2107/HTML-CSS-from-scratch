@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+	<style>
+			#portfolio .col-md-4 {
+  padding: 12px;
+}
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  max-width: 100%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 3.75em;
+  background: rgba(250,250,250,0.6);
+  color: #ffffff;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+figure.effect-zoe h2 {
+  font-size: 22px;
+  float: left;
+  position: relative;
+  bottom: 16px;
+}
+
+figure.effect-zoe h2 {
+  display: inline-block;
+}
+
+figure.effect-zoe p.icon-links a {
+  float: right;
+  font-size: 1.2em;
+  padding-right: 18px;
+}
+
+figure.effect-zoe h2,
+figure.effect-zoe p.icon-links a {
+  color: #000000 !important;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,200%,0);
+  transform: translate3d(0,200%,0);
+}
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover p.icon-links a {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+figure.effect-zoe:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+figure.effect-zoe:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+#portfolio .portfolio-bottom  {
+  padding-top: 62px;
+  position: relative;
+  clear: both;
+}
+
+#portfolio .portfolio-bottom h2  {
+  letter-spacing: 2px;
+}
+
+#portfolio .portfolio-bottom .btn {
+  background: transparent;
+  border: 4px solid #000000;
+  border-radius: 0;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin-top: 40px;
+  margin-right: 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+#portfolio .portfolio-bottom .btn:hover {
+  background: #000000;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+
+	</style>
+</head>
+
+<body>
+		<!-- Portfolio section
+================================================== -->
+<section id="portfolio" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<!-- Section title
+			================================================== -->
+			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
+				<div class="section-title">
+					<h5 class="wow bounceIn">WE ARE DELIGENT</h5>
+					<h1 class="heading">SHOWCASE</h1>
+					<hr>
+					<p>Pellentesque mollis purus ipsum. Fusce tristique ante et est placerat dignissim. Curabitur tincidunt risus non dui vulputate tincidunt.</p>
+				</div>
+			</div>
+
+            <div class="col-md-4 col-sm-6">
+				<div class="grid">
+              		<figure class="effect-zoe">
+						<img src="1.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Mobile App</h2>
+								<p class="icon-links">
+									<a href="1.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
+								</p>
+							</figcaption>			
+					</figure>
+				</div>
+            </div>   
+
+            <div class="col-md-4 col-sm-6">
+				<div class="grid">
+              		<figure class="effect-zoe">
+						<img src="4.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Trip Planning</h2>
+								<p class="icon-links">
+									<a href="4.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
+								</p>
+							</figcaption>			
+					</figure>
+				</div>
+            </div> 
+
+            <div class="col-md-4 col-sm-6">
+				<div class="grid">
+              		<figure class="effect-zoe">
+						<img src="8.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Scheduling</h2>
+								<p class="icon-links">
+									<a href="8.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
+								</p>
+							</figcaption>			
+					</figure>
+				</div>
+            </div> 
+          	
+          	<div class="col-md-4 col-sm-6">
+				<div class="grid">
+              		<figure class="effect-zoe">
+						<img src="3.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Arranging</h2>
+								<p class="icon-links">
+									<a href="3.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
+								</p>
+							</figcaption>			
+					</figure>
+				</div>
+            </div> 
+
+            <div class="col-md-4 col-sm-6">
+				<div class="grid">
+              		<figure class="effect-zoe">
+						<img src="5.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Organizing</h2>
+								<p class="icon-links">
+									<a href="5.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
+								</p>
+							</figcaption>			
+					</figure>
+				</div>
+            </div> 
+
+            <div class="col-md-4 col-sm-6">
+				<div class="grid">
+              		<figure class="effect-zoe">
+						<img src="6.jpg" alt="portfolio img"/>
+							<figcaption>
+								<h2>Grouping</h2>
+								<p class="icon-links">
+									<a href="6.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
+								</p>
+							</figcaption>			
+					</figure>
+				</div>
+            </div> 
+
+            <!-- Portfolio bottom section
+			================================================== -->
+            <div class="col-md-offset-2 col-md-8 col-sm-12">
+            	<div class="portfolio-bottom">
+            		<h2>INTERESTED?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Lorem ipsum dolor sit 	amet.</p>
+					<a href="#plan" class="smoothScroll btn btn-default">LET'S GO!</a>
+            	</div>
+            </div>    
+
+		</div>
+	</div>
+</section>		
+
+</body>
+</html>

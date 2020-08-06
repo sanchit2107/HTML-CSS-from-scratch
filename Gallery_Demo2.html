@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="portfolio/menu.js" type="text/javascript"></script>
+
+	<style>
+		.main1{
+	background:radial-gradient( #C00, #00F, #F0F, #3F0);
+	width:100%;
+	height:1400px;
+}
+.q{
+	background:#F06;
+	width:50%;
+	height:60px;
+	margin:2px auto;
+	font-size:36px;
+	font-family:"Comic Sans MS", cursive;
+	border-radius:15px;
+	animation-name:my;
+	animation-duration:0.5s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes my{
+		0%{
+			background:#F60;
+			color:#0F0;
+			}
+			50%{
+			background:#6FF;
+			color:#C00;
+			}
+		100%{
+			background:#03F;
+			color:#000;
+			}
+		}
+
+.p{
+	color:#F09;
+	background:#0FF;
+	margin:30px;
+	width:30%;
+	height:60px;
+	margin-left:400px;
+	font-size:30px;
+	text-align:center;
+	text-transform:capitalize;
+	border:solid;
+		}
+	.s{
+		width:90%;
+		height:450px;
+		margin-left:70px;
+	}
+	.s1{
+		width:100%;
+		height:75px;
+				}
+	.s2{
+		width:100%;
+		height:380px;
+	}
+	.n1 {
+		background:#36F;
+		width:33.3%;
+		height:75px;
+		float:left;
+	}
+	.w{
+		background:#36F;
+		width:100%;
+		height:75px;
+		float:left;
+		border:double;
+		font-size:26px;animation-name:my;
+	animation-duration:1.7s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes my{
+		0%{
+			background:#F60;
+			color:#0F0;
+			}
+			25%{
+			background:#6FF;
+			color:#C00;
+			}
+		50%{
+			background:#03F;
+			color:#000;
+			}
+		75%{
+			background:#F00;
+			color:#600;
+			}
+		100%{
+			background:#F60;
+			color:#000;
+			}
+	}
+	
+	.n2{
+		background:#F0F;
+		width:33.4%;
+		float:left;
+		height:75px;
+	}
+	.r{
+		border:double;
+		font-size:26px;
+		background:#F22;
+		width:100%;
+		float:left;
+		height:75px;
+	animation-name:mmy;
+	animation-duration:1.7s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes mmy{
+		0%{
+			background:#F60;
+			color:#0F0;
+			}
+			25%{
+			background:#03F;
+			color:#000;
+			}
+		50%{
+			background:#6FF;
+			color:#C00;
+			}
+		75%{
+			background:#F00;
+			color:#600;
+			}
+		100%{
+			background:#F60;
+			color:#000;
+			}
+		
+	}
+	.n3{
+		float:left;
+		background:#0C3;
+		width:33.3%;
+		height:75px;
+	}
+	.u{
+				background:#0C3;
+		float:left;
+		border:double;
+		font-size:26px;
+		width:100%;
+		height:75px;
+		animation-name:my;
+	animation-duration:1.7s;
+	animation-iteration-count:infinite;
+	}
+	@keyframes my{
+		0%{
+			background:#00F;
+			color:#FFF;
+			}
+			25%{
+			background:#FF0;
+			color:#000;
+			}
+		50%{
+			background:#F00;
+			color:#CCC;
+			}
+		75%{
+			background:#F06;
+			color:#00F;
+			}
+		100%{
+			background:#F0F;
+			color:#000;
+			}
+		
+
+	}
+	.ni1 {
+		
+		width:33.3%;
+		height:380px;
+		float:left;
+	}
+	
+	.ni2{
+		width:33.4%;
+		float:left;
+		height:380px;
+	}
+	.ni3{
+		float:left;
+		width:33.3%;
+		height:380px;
+	}
+	img{
+		margin:50px auto;
+		border:solid;
+		width:100%;
+		height:100%;
+		transition:all ease 0.7s;
+	}
+	img:hover{
+		transform:scale(1.2);
+	}
+	#animal{
+		display:none;
+	}
+	#game{
+		display:none;
+	}
+	#vehicle{
+		display:none;
+	}
+	#na2{
+		display:none;
+	}
+	#na3{
+		display:none;
+	}
+	#an2{
+		display:none;
+	}
+	#an3{
+		display:none;
+	}
+	#ga2{
+		display:none;
+	}
+	#ga3{
+		display:none;
+	}
+	#ve2{
+		display:none;
+	}
+	#ve3{
+		display:none;
+	}
+	</style>
+</head>
+<body>
+<div class="main1">
+<div class="q">
+<marquee behavior="alternate">PORTFOLIO</marquee>
+</div>
+<select class="p" onchange="showName(this.value)">
+	<option onmousemove="a()">select thing</option>
+	<option onmousemove="b()">nature</option>
+	<option onmousemove="c()">animal</option>
+	<option onmousemove="d()">games</option>
+	<option onmousemove="e()" >vehicle</option>
+</select>
+<div class="s" id="nature">
+	<div class="s1" id="na">
+    	<div class="n1">
+        <input type="button" value="watery" class="w" onclick="showOne()" />
+        </div>
+        <div class="n2">
+		<input type="button" value="raining" class="r" onclick="showTwo()"/>
+        </div>
+        <div class="n3">
+        <input type="button" value="suning" class="u" onclick="showThree()"/>
+        </div>
+    </div>
+	<div class="s2" id="na1">
+    	<div class="ni1">
+        <img src="3009.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="14731357_1247003895342013_2774713443282415829_n.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="background.jpg" />
+        </div>
+        <div class="ni1">
+        <img src="niagara.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="sabarmati.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="toronto1.jpg" />
+        </div>
+        <div class="ni1">
+        <img src="iact.png" />
+        </div>
+        <div class="ni2">
+        <img src="image1.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="niagara.jpg" />
+        </div>
+	</div>
+   
+
+
+</div>
+<div class="s" id="animal">
+	<div class="s1" id="an">
+    	<div class="n1">
+        <input type="button" value="dog" class="w" onclick="showOnee()" />
+        </div>
+        <div class="n2">
+		<input type="button" value="cat" class="r" onclick="showTwoo()"/>
+        </div>
+        <div class="n3">
+        <input type="button" value="tiger" class="u" onclick="showThreee()"/>
+        </div>
+    </div>
+    <div class="s2" id="an1">
+    	<div class="ni1">
+        <img src="pika.png" />
+        </div>
+        <div class="ni2">
+        <img src="sabarmati.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="toronto.jpg" />
+        </div>
+	</div>
+    <div class="s2" id="an2">
+    	<div class="ni1">
+        <img src="toronto1.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="14731357_1247003895342013_2774713443282415829_n.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="background.jpg" />
+        </div>
+	</div>
+<div class="s2" id="an3">
+    	<div class="ni1">
+        <img src="ball.png" />
+        </div>
+        <div class="ni2">
+        <img src="drowsy.png" />
+        </div>
+        <div class="ni3">
+        <img src="gengar.png" />
+        </div>
+	</div>
+</div>
+<div class="s" id="game">
+	<div class="s1" id="ga">
+    	<div class="n1">
+        <input type="button" value="outdoor" class="w" onclick="showwOne()" />
+        </div>
+        <div class="n2">
+		<input type="button" value="indoor" class="r" onclick="showwTwo()"/>
+        </div>
+        <div class="n3">
+        <input type="button" value="online" class="u" onclick="showwThree()"/>
+        </div>
+    </div>
+	<div class="s2" id="ga1">
+    	<div class="ni1">
+        <img src="niagara.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="toronto.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="14731357_1247003895342013_2774713443282415829_n.jpg" />
+        </div>
+	</div>
+    <div class="s2" id="ga2">
+    	<div class="ni1">
+        <img src="toronto1.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="3009.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="iact.png" />
+        </div>
+	</div>
+<div class="s2" id="ga3">
+    	<div class="ni1">
+        <img src="14731357_1247003895342013_2774713443282415829_n.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="gengar.png" />
+        </div>
+        <div class="ni3">
+        <img src="drowsy.png" />
+        </div>
+	</div>
+</div>
+<div class="s" id="vehicle">
+	<div class="s1" id="ve">
+    	<div class="n1">
+        <input type="button" value="car" class="w" onclick="sshowOne()" />
+        </div>
+        <div class="n2">
+		<input type="button" value="bike" class="r" onclick="sshowTwo()"/>
+        </div>
+        <div class="n3">
+        <input type="button" value="cycle" class="u" onclick="sshowThree()"/>
+        </div>
+    </div>
+	<div class="s2"  id="ve1">
+    	<div class="ni1">
+        <img src="sabarmati.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="background.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="iact.png" />
+        </div>
+	</div>
+    <div class="s2" id="ve2">
+    	<div class="ni1">
+        <img src="14731357_1247003895342013_2774713443282415829_n.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="toronto.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="14731357_1247003895342013_2774713443282415829_n.jpg" />
+        </div>
+	</div>
+<div class="s2" id="ve3">
+    	<div class="ni1">
+        <img src="image1.jpg" />
+        </div>
+        <div class="ni2">
+        <img src="14731357_1247003895342013_2774713443282415829_n.jpg" />
+        </div>
+        <div class="ni3">
+        <img src="3009.jpg" />
+        </div>
+	</div>
+</div>
+</div>
+</body>
