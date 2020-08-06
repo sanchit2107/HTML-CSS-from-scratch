@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+	width:30%;
+	height:460px;
+	margin:60px auto;
+	border:#000 solid 3px;
+	position:relative;
+	overflow:hidden;
+}
+.image{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+
+}
+.image img{
+	width:100%;
+	height:100%;
+}
+.info{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:-420px;
+}
+.kk{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.data{
+	position:absolute;
+	width:80%;
+	height:80%;
+	margin:32px;
+	border:#000 8px double;
+}
+.data p{
+	font-size:27px;
+	text-align:center;
+	padding:0px;
+}
+.main:hover .image{
+	transition:all linear 0.5s;
+	left:405px;
+}
+.main:not(:hover) .image{
+	transition:all linear 0.5s;
+	left:0px;
+}
+.main:hover .info{
+	transition:all linear 0.5s;
+	left:0px;
+}
+.main:not(:hover) .info{
+	transition:all linear 0.5s;
+	left:-420px;
+}

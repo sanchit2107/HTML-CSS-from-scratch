@@ -1,0 +1,74 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"Comic Sans MS", cursive;	
+}
+body{
+	background:url(../../Pictures/Web%20images/robotC.jpg);
+	background-size:100% 700px;	
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background: #0FF;	
+}
+.webinfo{
+	width: 100%;
+	height: 70px;
+	position: fixed;	
+}
+.weblogo{
+	width: 30%;
+	height: 70px;
+	float: left;	
+}
+.logo{
+	width: 80%;
+	height: 50px;
+	margin: 8px auto;	
+}
+.logo > h1{
+	line-height: 30px;
+	padding:10px;	
+	color: #03F;
+}
+.menubar{
+	width: 70%;
+	height: 70px;
+	float: left;	
+}
+.newmenu{
+	width: 80%;
+	height: 50px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.menulist{
+	width: 100%;
+	height: 50px;	
+}
+.menulist > ul{
+	margin:0px;
+	padding:0px;	
+}
+.menulist > ul > li{
+	list-style: none;
+	width: 16.6%;
+	float: left;	
+	height: 50px;
+}
+.menulist > ul > li > a{
+	display:block;
+	font-size: 15px;
+	padding: 8px;
+	text-align: center;	
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #0EE2DD;
+}
+.menulist > ul > li > a:hover{
+	background: #118993;
+	color: #FFF;	
+}
+

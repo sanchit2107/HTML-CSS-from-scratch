@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+.mydiv{
+	background:#F00;
+	width:90%;
+	height:560px;
+	margin:15px 0px 0px 60px;
+	position:relative;
+}
+.main{
+	background:#FF0;
+	width:100%;
+	height:100%;
+	border:#000 solid 3px;
+	position:absolute
+}
+.A{
+	
+background:#F00;
+	width:15%;
+	height:112px;
+	float: left;
+    margin:50px 0px 0px 620px;
+	position:relative;
+
+}
+.A1{
+	background:#306;
+	width:100%;
+	height:100%;
+	position:absolute;
+	margin:-80px 0px 0px 0px;
+}
+.A1 h1{
+	color:#000;
+	text-align:center;
+}
+.A1:hover{
+	border-radius:50%;
+	transition:all ease-out 2s;
+	width:50%;
+	height:70%;
+	font-size:100%;
+	margin:25px;
+	opacity:0;
+}
+.A1:not(:hover){
+	transition:all ease-out 2s;
+	border-radius:0px;
+}
+.B{
+	background:#0F0;
+	width:15%;
+	height:20%;
+	margin:50px 0px 0px 800px;
+}
+.B1{
+	background:#333;
+	width:100%;
+	height:100%;
+}
+.a{
+	background:#F90;
+	width:15%;
+	height:20%;
+	float:left;
+	margin:0px 980px;
+}
+.a1{
+	background:#6F6;
+	width:100%;
+	height:100%;
+}
+.a1 img{
+	width:100%;
+	height:100%;
+}
+
+.b{
+	background:#30C;
+	width:15%;
+	height:20%;
+	margin:0px 800px;
+}
+.b1{
+	background:#F99;
+	width:100%;
+	height:100%;
+}
+.c{
+	background:#F39;
+	width:15%;
+	height:20%;
+    margin:-112px 620px;
+}
+.c1{
+	background:#0C0;
+	width:100%;
+	height:100%;
+}
+.c1 img{
+	width:100%;
+	height:100%;
+	margin:-112px 0px 0px 0px;
+}
+
+.d{
+	background:#603;
+	width:15%;
+	height:20%;
+    margin:-112px 440px;
+	position:relative;
+}
+.d1{
+	background:#366;
+	width:100%;
+	height:100%;
+	position:absolute;
+	
+}
+.d1 img{
+	width:100%;
+	height:100%;
+}
+.d1 p{
+	margin:-50px 50px;
+	opacity:0;
+}
+.e{
+	background:#D12E67;
+	width:15%;
+	height:20%;
+    margin:-112px 260px;
+}
+.e1{
+	background:#09F;
+	width:100%;
+	height:100%;
+}
+.f{
+	background:#93F;
+	width:15%;
+	height:20%;
+    margin:-112px 80px;
+}
+.f1{
+	background:#936;
+	width:100%;
+	height:100%;
+}
+.x{
+	background:#6C3;
+	width:15%;
+	height:20%;
+    margin:110px 260px;
+}
+.x1{
+	background:#F96;
+	width:100%;
+	height:100%;
+}
+.x1 img{
+	width:100%;
+	height:100%;
+	margin:0px 0px 0px 0px;
+}
+
+.y{
+	background: #3FF;
+	width:15%;
+	height:20%;
+    margin:-220px 440px;
+}
+.y1{
+	background:#96F;
+	width:100%;
+	height:100%;
+}
+.y1 img{
+	width:100%;
+	height:100%;
+}
+
+.z{
+	background:#93F;
+	width:15%;
+	height:20%;
+	margin:108px 980px;
+   }
+.z1{
+	background:#993;
+	width:100%;
+	height:100%;
+}
+.z1 img{
+	width:100%;
+	height:100%;
+}

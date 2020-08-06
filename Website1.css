@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+		margin:0;
+	padding:0;
+}
+.main{
+	background:#FF0;
+	width:100%;
+	height:50px;
+
+}
+.menu{
+	background:#000;
+	width:70%;
+	height:100%;
+	float:left;
+}
+ul{
+	margin:0;
+	padding:0;
+	background:#F0F;
+}
+ul li{
+	list-style:none;
+	float:left;
+	width:15%;
+	text-align:center;
+	line-height:50px;
+	font-size:13px;
+	border-left:#666 solid 4px;
+	border-right:solid 4px #666666;
+	color:#FFF;
+	}
+ul li:hover{
+	display:block;
+	background:#0FF;
+}
+.txt{
+	background:#000;
+	width:30%;
+	height:50px;
+	float:left;
+}
+.txt input{
+	margin:18px 0px 0px 80px;
+}
+.main1{
+	width:100%;
+	height:100px;
+}
+.main1 .heading{
+	width:55%;
+	height:100px;
+	float:left;
+}
+.main1 .heading h1{
+	font-size:36px;
+	margin:30px 200px;
+}
+.main1 .menu1{
+	width:45%;
+	height:100px;
+	float:left;
+}
+ol li{
+	list-style:none;
+	float:left;
+	width:12%;
+	text-align:center;
+	font-size:15px;
+	margin:45px auto;
+}
+.main3{
+	background:#0FF;
+	width:100%;
+	height:400px;
+	position:relative;
+}
+	
+.image{
+	background:#FF0;
+	width:100%;
+	height:400px;
+	float:left;
+	position:absolute;
+}
+.image img{
+	background-size:100% 100%;
+	width:100%;
+	height:inherit;
+}
+.info{
+	width:45%;
+	height:400px;
+	position:absolute;
+	margin-left:825px;
+	z-index:2;
+}
+.info h1{
+	color:#FFF;
+	margin-top:100px;
+}
+.info h3{
+	color:#FFF;
+	margin-top:
+.circles{
+	width:100%;
+	height:300px;
+}
+.c1{
+	width:30%;
+	height:300px;
+	float:left;
+	margin:0px 0px 0px 80px;
+}
+.image1{
+	background:#0FF;
+	background-size:100% 100%;
+	width:40%;
+	height:60%;
+	margin-top:60px;
+	margin-left:140px;
+	border-radius:150px;
+	box-shadow:-8px 8px 25px #000000;
+}
+.image1 img{
+	width:55%;
+	height:55%;
+	margin-top:35px;
+	margin-left:40px;
+}
+.c1:hover{
+	background:#00F;
+}
+.c1 .image1:hover{
+	background:#F00;
+}
+.c2{
+	width:30%;
+	height:300px;
+	float:left;
+}
+.image2{
+	background:#0FF;
+	background-size:100% 100%;
+	width:40%;
+	height:60%;
+	margin-top:60px;
+	margin-left:140px;
+	border-radius:150px;
+	box-shadow:-8px 8px 25px #000000;
+}
+.image2 img{
+	width:55%;
+	height:55%;
+	margin-top:35px;
+	margin-left:40px;
+}
+.c2:hover{
+	background:#00F;
+}
+.c2 .image2:hover{
+	background:#F00;
+}
+
+.c3{
+	width:30%;
+	height:300px;
+	float:left;
+
+}
+.image3{
+	background:#0FF;
+	background-size:100% 100%;
+	width:40%;
+	height:60%;
+	margin-top:60px;
+	margin-left:140px;
+	border-radius:150px;
+	box-shadow:-8px 8px 25px #000000;
+}
+.image3 img{
+	width:55%;
+	height:55%;
+	margin-top:35px;
+	margin-left:40px;
+}
+.c3:hover{
+	background:#00F;
+}
+.c3 .image3:hover{
+	background:#F00;
+}
+
+.main4{
+	width:100%;
+	height:100px;
+	margin-top:60px;
+}
+.main4 .heading1{
+	width:55%;
+	height:100px;
+	float:left;
+}
+.main4 .heading1 h1{
+	font-size:36px;
+	margin:30px 200px;
+}
+.main4 .menu1{
+	width:45%;
+	height:100px;
+	float:left;
+}
+
+.header{
+	width:100%;
+	height:200px;
+}
+.header h1{
+	font-size:36px;
+	color:#0033FF;
+}
+.header h3{
+	margin-top:30px;
+}
+.main5{
+	width:100%;
+	height:650px;
+	position:relative;
+}
+.mobile{
+	background:url(../../Pictures/Web%20images/tablet.jpg);
+	background-size:100% 100%;
+	width:30%;
+	height:500px;
+	margin-left:550px;
+	position:absolute;
+	z-index:2;
+}
+.text1{
+	width:30%;
+	z-index:1;
+	height:30%;
+	position:absolute;
+	margin-left:550px;
+}
+.text1 p{
+	margin:10px 0px 0px 20px;
+	font-size:25px;
+	text-align:right;
+}
+.text2{
+	width:30%;
+	height:30%;
+	position:absolute;
+	margin-left:550px;
+}
+.text2 p{
+	margin:10px 0px 0px 20px;
+	font-size:25px;
+	text-align:left;
+}
+.text3{
+	width:30%;
+	height:30%;
+	z-index:1;
+	position:absolute;
+	margin-top:305px;
+	margin-left:550px;
+}
+.text3 p{
+	margin:10px 0px 0px 20px;
+	font-size:25px;
+	text-align:right;
+}
+.text4{
+	width:30%;
+	height:30%;
+	position:absolute;
+	margin-top:305px;
+	margin-left:550px;
+}
+.text4 p{
+	margin:10px 0px 0px 20px;
+	font-size:25px;
+	text-align:left;
+}
+.main5:hover .text1{
+	transition:all linear 0.4s;
+	transform:translate(-450px,0px);	
+}
+.main5:not(:hover) .text1{
+	transition:all linear 0.4s;
+	transform:none;	
+}
+.main5:hover .text2{
+	transition:all linear 4s;
+	transform:translate(450px,0px);	
+}
+.main5:not(:hover) .text2{
+	transition:all linear 4s;
+	transform:none;	
+}
+.main5:hover .text3{
+	transition:all linear 8s;
+	transform:translate(-450px,0px);	
+}
+.main5:not(:hover) .text3{
+	transition:all linear 8s;
+	transform:none;	
+}
+.main5:hover .text4{
+	transition:all linear 11s;
+	transform:translate(450px,0px);	
+}
+.main5:not(:hover) .text4{
+	transition:all linear 11s;
+	transform:none;	
+}
+
+
+
+
+	

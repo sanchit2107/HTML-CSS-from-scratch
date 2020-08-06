@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+	width:50%;
+	height:300px;
+	margin:60px auto;
+	position:relative;
+	transition:all linear 0.5s;
+	perspective:1500px;
+}
+.image{
+	width:100%;
+	height:100%;
+	position:absolute;
+
+	transition:all linear 0.5s;
+	backface-visibility:hidden;
+	transform-style:preserve-3d;
+}
+.image img{
+	width:inherit;
+	height:inherit;
+	border:#000 solid 2px;
+}
+.info{
+	width:100%;
+	height:100%;
+	border:2px solid #000;
+	position:absolute;
+	transition:all linear 0.5;
+	transform:rotateY(0deg);
+}
+.info p{
+	padding:32px;
+	width:50%;
+	font-size:24px;
+	margin:10px auto;
+	border:2px dotted #F00;
+}
+.main:hover .image{
+	transform:rotateY(180deg);
+}
+.main:hover .info{
+	transform:rotateY(180deg);
+}
