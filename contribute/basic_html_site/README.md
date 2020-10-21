@@ -9,7 +9,7 @@
 * The User/ Editor can try out new colors, padding, margins, images etc.
 * The Class Name play a very important role in designing the website, change only for learning purpose.
 
-![Website Image 2](ss_2_carousel.png)
+![Website Image 2](ss_2_caruosel.png)
 
 ## HTML/ CSS Topics Covered
 
