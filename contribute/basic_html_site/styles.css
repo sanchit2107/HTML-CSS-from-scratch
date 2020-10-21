@@ -1,0 +1,179 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+/* Background Image for Parallax Effect*/
+.bg {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1541443724873-8ba49db7a737?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    padding-top: 50px;
+  }
+
+h1{
+    color: #FF5733 ;
+    font-size: 36px;
+}
+
+h3{
+    color: #e4e6ea;
+    font-weight: 400;
+}
+
+h1 strong{
+    color:  #000 ;
+}
+
+ol li{
+    font-size: 18px;
+    color: #bbbdc0;
+}
+
+ul li{
+    font-size: 20px;
+    color: #bbbdc0;
+}
+
+.row{
+    padding: 20px;
+    padding-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.register{
+    color:  #FF5733 ;
+    font-size: 30px;
+}
+
+.responsive {
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width: 768px){
+    .responsive{
+        width: 300px;
+        height: 300px;
+    }
+    .section-heading-big{
+        font-size: 30px !important;
+    }
+    .section-heading{
+    font-size: 22px !important;
+    }
+    .section-main-big{
+    font-size: 30px !important;
+    }
+    .section-main{
+    font-size: 22px !important;
+    } 
+    .row{
+        padding: 10px;
+        padding-top: 30px;
+    }
+}
+
+.container{
+    padding-top: 170px;
+}
+
+.btn-get-started {
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #000;
+    border: 2px solid #FF5733;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+.btn-get-started:hover{
+    background: orange;
+    color: #fff;
+}
+
+.btn-get-started a{
+    text-decoration: none;
+}
+
+footer {
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color:  #000;
+    color: white;
+    text-align: center;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.section-heading{
+  font-family: 'Aldrich','Microsoft JhengHei',sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.section-heading-big{
+    font-size: 50px;
+}
+
+.section-text-big{
+    font-size: 35px;
+}
+
+.section-text{
+  font-size: 25px;
+}
+  .section-main{
+    font-family: 'Aldrich','Microsoft JhengHei',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+  } 
+  .section-main-big{
+    font-size: 50px;
+}
+button:focus{
+    outline:none;
+}
+
+.price-text {
+    /* font-size: 20px; */
+    color: #bbbdc0;
+    
+}
+
+.carousel-item .d-block{
+    height: 80%;
+}
