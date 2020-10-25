@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>This is an example for Tables tag HTML</h2>
+
+<h3> Sample Code: </h3>
+<pre>
+    <code> &lt;table&gt;</code>
+    	<code> &lt;tr&gt;</code>
+    	<code> &lt;th colspan="2"&gt;</code><span>table header</span><code>&lt;/th&gt;</code>
+    	<code> &lt;/tr&gt;</code>
+
+    	<code> &lt;tr&gt;</code>
+    	<code> &lt;td rowspan="2"&gt;</code><span>table definiton</span><code>&lt;/td&gt;</code>
+    	<code> &lt;/tr&gt;</code>
+    <code> &lt;/table&gt;</code>
+</pre>
+
+<h3>Attributes of table tags</h3>
+<p>
+    <ul>
+    	<li>rowspan - specifies row span</li>
+    	<li>colspan - specifies column span</li>
+    	<li>eg- rowspan=2...10..</li>
+    	<li>eg- colspan=2...10..</li>
+    </ul>
+</p>
+
+<h3> Table with cell span variations: </h3>
+<ul>
+	<li>
+		<p>colspan=2</p>
+			<table border=1>
+  				<tr>
+    				<th>Name</th>
+    				<th colspan="2">Telephone</th>
+  				</tr>
+  				<tr>
+    				<td>Bill Gates</td>
+    				<td>55577854</td>
+    				<td>55577855</td>
+  				</tr>
+			</table>
+	</li>
+
+	<li>
+		<p>colspan=4</p>
+			<table border=1>
+  				<tr>
+    				<th>Name</th>
+    				<th colspan="4">Telephone</th>
+  				</tr>
+  				<tr>
+    				<td>Bill Gates</td>
+    				<td>55577854</td>
+    				<td>55577855</td>
+    				<td>5908790005</td>
+    				<td>1278390005</td>
+  				</tr>
+			</table>
+	</li>
+
+	<li>
+		<p>rowspan=3</p>
+			<table border=1>
+  				<tr>
+    				<th>Name</th>
+    				<th>Telephone</th>
+    				<th>Gender</th>
+  				</tr>
+  				<tr>
+    				<td>John Doe</td>
+    				<td>55577854</td>
+    				<td rowspan=3>Male</td>
+  				</tr>
+  				<tr>
+    				<td>James Charles</td>
+    				<td>123577854</td>
+  				</tr>
+  				<tr>
+    				<td>Kevin Malone</td>
+    				<td>097577854</td>
+  				</tr>
+			</table>
+	</li>
+
+	<li>
+		<p>colspan2 and rowspan=2</p>
+			<table border=1>
+  				<tr>
+    				<th>Name</th>
+    				<th colspan="2">Telephone</th>
+    				<th>Gender</th>
+  				</tr>
+  				<tr>
+    				<td>John Doe</td>
+    				<td>55577854</td>
+    				<td>12345667</td>
+    				<td rowspan=2>Male</td>
+  				</tr>
+  				<tr>
+    				<td>James Charles</td>
+    				<td>123577854</td>
+    				<td>920308484</td>
+  				</tr>
+			</table>
+	</li>
+</ul>
+
+</body>
+</html>
