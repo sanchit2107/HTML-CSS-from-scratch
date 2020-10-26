@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+	Contribution By - Naman Agarwal
+	Github - https://github.com/divinenaman
+-->
+
+<body>
+
+<h2>This is an example for Input tag HTML</h2>
+
+<h3> Sample Code: </h3>
+<pre>
+    <code> &lt;input type="" name="" placeholder="" checked/&gt;</code>
+</pre>
+
+<h3>Types of input tags</h3>
+<p>
+    <ul>
+    	<li>text - text input, default value of input tag is text</li>
+        <li>checkbox - checkboxes, allows multiple selection</li>
+        <li>radio - similar to checkbox, supports both multi and single selection</li>
+        <li>range - range slider</li>
+        <li>button - clickable button</li>
+        <li>file - allows file upload</li>
+        <li>password - obscured text input</li>
+        <li>date - text input with calendar to select dates</li>
+        <li>color - color picker</li>
+    </ul>
+</p>
+
+<h3>Attributes of Input Tags</h3>
+<p>
+    <ul>
+    	<li>placeholder- hint for the value to be entered</li>
+        <li>name - a unique name, radio input require same name attribute to be specified in input fields that belong to the same group of inputs to allow single selection</li>
+        <li>value - specifies the text content of input field, used for text and button type inputs</li>
+        <li>checked - a binary attribute that specifies the input fields that are selected, used for checkbox and radio type inputs</li>
+    </ul>
+</p>
+
+
+<h3> Input tag examples: </h3>
+<ul>
+	<li>
+		<p>type="text" with placeholder="Enter name"</p>
+		<label>Enter:</label>
+		<input type="text" placeholder="Enter name"/>
+	</li>
+
+	<li>
+		<p>type="checkbox" with checked attribute</p>
+		<label>Select:</label>
+		<input type="checkbox" />
+		<input type="checkbox" checked/>
+		<input type="checkbox" />
+		<input type="checkbox" />
+		<input type="checkbox" />
+	</li>
+
+	<li>
+		<ol>
+			<li>
+				<p>type="radio" without name attribute</p>
+				<label>Select:</label>
+				<input type="radio" />
+				<input type="radio" />
+				<input type="radio" />
+				<input type="radio" />
+				<input type="radio" />
+			</li>
+			<li>
+				<p>type="radio" with name and checked attribute</p>
+				<label>Select:</label>
+				<input type="radio" name="test"/>
+				<input type="radio" name="test"/>
+				<input type="radio" name="test" checked/>
+				<input type="radio" name="test"/>
+				<input type="radio" name="test"/>
+			</li>
+		</ol>
+	</li>
+
+	<li>
+		<p>type="range"</p>
+		<label>Slide:</label>
+		<input type="range" />
+	</li>
+
+	<li>
+		<p>type="button" with value="Click Me!"</p>
+		<label>Click:</label>
+		<input type="button" value="Click Me!"/>
+	</li>
+
+	<li>
+		<p>type="file"</p>
+		<label>Select File:</label>
+		<input type="file" />
+	</li>
+
+	<li>
+		<p>type="password"</p>
+		<label>Enter:</label>
+		<input type="password" />
+	</li>
+
+	<li>
+		<p>type="date"</p>
+		<label>Select:</label>
+		<input type="date" />
+	</li>
+
+	<li>
+		<p>type="color"</p>
+		<label>Select:</label>
+		<input type="color" />
+	</li>
+
+</ul>
+
+</body>
+</html>
